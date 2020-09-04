@@ -10,3 +10,15 @@ C:\Users\JarHead\source\repos\WSJR sim\obj\Debug\WSJR sim.exe
 C:\Users\JarHead\source\repos\WSJR sim\obj\Debug\WSJR sim.pdb
 C:\Users\JarHead\source\repos\WSJR sim\obj\Debug\WSJR_sim.Form2.resources
 C:\Users\JarHead\source\repos\WSJR sim\obj\Debug\WSJR_sim.Form3.resources
+C:\Users\JarHead\Documents\WSJR Simulator\bin\Debug\WSJR sim.exe.config
+C:\Users\JarHead\Documents\WSJR Simulator\bin\Debug\WSJR sim.exe
+C:\Users\JarHead\Documents\WSJR Simulator\bin\Debug\WSJR sim.pdb
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.csprojAssemblyReference.cache
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR_sim.Form1.resources
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR_sim.Form2.resources
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR_sim.Form3.resources
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR_sim.Properties.Resources.resources
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.csproj.GenerateResource.cache
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.csproj.CoreCompileInputs.cache
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.exe
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.pdb

@@ -43,7 +43,7 @@
             this.LDL.AutoSize = true;
             this.LDL.Font = new System.Drawing.Font("STAR JR", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LDL.ForeColor = System.Drawing.Color.White;
-            this.LDL.Location = new System.Drawing.Point(57, 384);
+            this.LDL.Location = new System.Drawing.Point(57, 368);
             this.LDL.Name = "LDL";
             this.LDL.Size = new System.Drawing.Size(225, 36);
             this.LDL.TabIndex = 11;
@@ -55,7 +55,7 @@
             this.LabelTime.AutoSize = true;
             this.LabelTime.Font = new System.Drawing.Font("STAR JR Small", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelTime.ForeColor = System.Drawing.Color.White;
-            this.LabelTime.Location = new System.Drawing.Point(418, 368);
+            this.LabelTime.Location = new System.Drawing.Point(418, 357);
             this.LabelTime.Name = "LabelTime";
             this.LabelTime.Size = new System.Drawing.Size(151, 16);
             this.LabelTime.TabIndex = 10;
@@ -66,7 +66,7 @@
             this.LabelDate.AutoSize = true;
             this.LabelDate.Font = new System.Drawing.Font("STAR JR Small", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelDate.ForeColor = System.Drawing.Color.White;
-            this.LabelDate.Location = new System.Drawing.Point(60, 368);
+            this.LabelDate.Location = new System.Drawing.Point(60, 357);
             this.LabelDate.Name = "LabelDate";
             this.LabelDate.Size = new System.Drawing.Size(151, 16);
             this.LabelDate.TabIndex = 9;
@@ -77,7 +77,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(-5, 349);
+            this.label3.Location = new System.Drawing.Point(-5, 341);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(703, 13);
             this.label3.TabIndex = 8;

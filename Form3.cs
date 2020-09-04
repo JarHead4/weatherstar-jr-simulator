@@ -16,5 +16,10 @@ namespace WSJR_sim
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
