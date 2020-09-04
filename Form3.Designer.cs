@@ -43,9 +43,9 @@
             this.LDL.ForeColor = System.Drawing.Color.White;
             this.LDL.Location = new System.Drawing.Point(57, 368);
             this.LDL.Name = "LDL";
-            this.LDL.Size = new System.Drawing.Size(360, 36);
+            this.LDL.Size = new System.Drawing.Size(345, 36);
             this.LDL.TabIndex = 17;
-            this.LDL.Text = "Conditions At city_name";
+            this.LDL.Text = "Conditions At Scranton";
             // 
             // LabelTime
             // 
@@ -92,8 +92,9 @@
             this.data.Name = "data";
             this.data.Size = new System.Drawing.Size(550, 255);
             this.data.TabIndex = 13;
-            this.data.Text = "TONIGHT...THUNDERSTORMS LIKELY. HIGHS IN THE UPPER 10S WITH LOWS IN THE LOWER -30" +
-    "S. WINDS WSW AT 160 MPH.";
+            this.data.Text = "TONIGHT...MOSTLY CLEAR. LOWS AROUND 50. NORTHWEST WINDS AROUND 5 MPH.\r\n\r\nSATURDAY" +
+    "...SUNNY. HIGHS IN THE UPPER 70S. WEST WINDS 5 TO 10 MPH.\r\n\r\nSATURDAY NIGHT...MO" +
+    "STLY CLEAR. LOWS IN THE LOWER";
             // 
             // header
             // 

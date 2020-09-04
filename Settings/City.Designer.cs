@@ -73,18 +73,18 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("STAR JR", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(67, 72);
+            this.label3.Location = new System.Drawing.Point(47, 72);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 23);
+            this.label3.Size = new System.Drawing.Size(110, 23);
             this.label3.TabIndex = 3;
-            this.label3.Text = "ASOS ID:";
+            this.label3.Text = "Area Zone:";
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(163, 75);
-            this.textBox2.MaxLength = 4;
+            this.textBox2.MaxLength = 6;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(53, 20);
+            this.textBox2.Size = new System.Drawing.Size(81, 20);
             this.textBox2.TabIndex = 4;
             // 
             // label4
@@ -92,7 +92,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("STAR JR", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(235, 72);
+            this.label4.Location = new System.Drawing.Point(250, 72);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(160, 23);
             this.label4.TabIndex = 5;
