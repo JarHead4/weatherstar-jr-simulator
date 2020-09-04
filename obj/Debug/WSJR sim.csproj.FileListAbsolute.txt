@@ -22,3 +22,4 @@ C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.csproj.GenerateReso
 C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.csproj.CoreCompileInputs.cache
 C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.exe
 C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR sim.pdb
+C:\Users\JarHead\Documents\WSJR Simulator\obj\Debug\WSJR_sim.Settings.City.resources

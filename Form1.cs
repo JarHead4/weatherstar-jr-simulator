@@ -23,9 +23,8 @@ namespace WSJR_sim
          
         private void Wait_Tick(object sender, EventArgs e)
             {
-                LabelDate.Text = DateTime.Now.ToString("ddd MMM dd"); //display date
-                LabelTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); //display time
-            }
+            LDL.Text = LDL.Text.Substring(1, LDL.Text.Length - 1) + LDL.Text.Substring(0, 1);
+        }
 
         private void LDL_Click(object sender, EventArgs e)
         {
@@ -34,6 +33,13 @@ namespace WSJR_sim
             sim.Owner = this;
             sim.Show();
             frm1.Close();//load simulation
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form set1 = new Settings.City();
+            set1.Owner = this;
+            set1.Show();
         }
     }
 
