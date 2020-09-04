@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.LDL = new System.Windows.Forms.Label();
             this.LabelTime = new System.Windows.Forms.Label();
             this.LabelDate = new System.Windows.Forms.Label();
@@ -44,9 +43,9 @@
             this.LDL.ForeColor = System.Drawing.Color.White;
             this.LDL.Location = new System.Drawing.Point(57, 368);
             this.LDL.Name = "LDL";
-            this.LDL.Size = new System.Drawing.Size(405, 36);
+            this.LDL.Size = new System.Drawing.Size(360, 36);
             this.LDL.TabIndex = 17;
-            this.LDL.Text = "Conditions At Shohola Twp.";
+            this.LDL.Text = "Conditions At city_name";
             // 
             // LabelTime
             // 
@@ -93,7 +92,8 @@
             this.data.Name = "data";
             this.data.Size = new System.Drawing.Size(550, 255);
             this.data.TabIndex = 13;
-            this.data.Text = resources.GetString("data.Text");
+            this.data.Text = "TONIGHT...THUNDERSTORMS LIKELY. HIGHS IN THE UPPER 10S WITH LOWS IN THE LOWER -30" +
+    "S. WINDS WSW AT 160 MPH.";
             // 
             // header
             // 
@@ -102,7 +102,7 @@
             this.header.Font = new System.Drawing.Font("STAR JR Small", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.header.ForeColor = System.Drawing.Color.White;
             this.header.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.header.Location = new System.Drawing.Point(97, 33);
+            this.header.Location = new System.Drawing.Point(95, 33);
             this.header.Name = "header";
             this.header.Size = new System.Drawing.Size(428, 18);
             this.header.TabIndex = 12;
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(2)))), ((int)(((byte)(135)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(31)))), ((int)(((byte)(146)))));
             this.ClientSize = new System.Drawing.Size(624, 441);
             this.Controls.Add(this.LDL);
             this.Controls.Add(this.LabelTime);

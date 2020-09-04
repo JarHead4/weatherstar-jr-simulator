@@ -33,7 +33,7 @@
             this.LabelTime = new System.Windows.Forms.Label();
             this.LabelDate = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.header = new System.Windows.Forms.Label();
+            this.labelheader = new System.Windows.Forms.Label();
             this.clearbelow = new System.Windows.Forms.Label();
             this.temp = new System.Windows.Forms.Label();
             this.heatindex = new System.Windows.Forms.Label();
@@ -53,9 +53,9 @@
             this.LDL.ForeColor = System.Drawing.Color.White;
             this.LDL.Location = new System.Drawing.Point(57, 368);
             this.LDL.Name = "LDL";
-            this.LDL.Size = new System.Drawing.Size(315, 36);
+            this.LDL.Size = new System.Drawing.Size(360, 36);
             this.LDL.TabIndex = 15;
-            this.LDL.Text = "Conditions At Sidney";
+            this.LDL.Text = "Conditions At city_name";
             // 
             // LabelTime
             // 
@@ -91,16 +91,17 @@
             this.label3.Text = "_________________________________________________________________________________" +
     "___________________________________";
             // 
-            // header
+            // labelheader
             // 
-            this.header.AutoSize = true;
-            this.header.Font = new System.Drawing.Font("STAR JR", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.header.ForeColor = System.Drawing.Color.White;
-            this.header.Location = new System.Drawing.Point(48, 34);
-            this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(315, 36);
-            this.header.TabIndex = 16;
-            this.header.Text = "Conditions At Sidney";
+            this.labelheader.AutoSize = true;
+            this.labelheader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(31)))), ((int)(((byte)(146)))));
+            this.labelheader.Font = new System.Drawing.Font("STAR JR", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelheader.ForeColor = System.Drawing.Color.White;
+            this.labelheader.Location = new System.Drawing.Point(48, 34);
+            this.labelheader.Name = "labelheader";
+            this.labelheader.Size = new System.Drawing.Size(360, 36);
+            this.labelheader.TabIndex = 16;
+            this.labelheader.Text = "Conditions At city_name";
             // 
             // clearbelow
             // 
@@ -211,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(2)))), ((int)(((byte)(135)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(31)))), ((int)(((byte)(146)))));
             this.ClientSize = new System.Drawing.Size(624, 441);
             this.Controls.Add(this.precip);
             this.Controls.Add(this.visib);
@@ -222,14 +223,14 @@
             this.Controls.Add(this.heatindex);
             this.Controls.Add(this.temp);
             this.Controls.Add(this.clearbelow);
-            this.Controls.Add(this.header);
+            this.Controls.Add(this.labelheader);
             this.Controls.Add(this.LDL);
             this.Controls.Add(this.LabelTime);
             this.Controls.Add(this.LabelDate);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "WeatherStar Jr. Simulator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,7 +242,7 @@
         private System.Windows.Forms.Label LabelTime;
         private System.Windows.Forms.Label LabelDate;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label header;
+        private System.Windows.Forms.Label labelheader;
         private System.Windows.Forms.Label clearbelow;
         private System.Windows.Forms.Label temp;
         private System.Windows.Forms.Label heatindex;
