@@ -20,9 +20,9 @@ namespace WSJR_sim
 
             InitializeComponent();
         }
-         
+
         private void Wait_Tick(object sender, EventArgs e)
-            {
+        {
             LDL.Text = LDL.Text.Substring(1, LDL.Text.Length - 1) + LDL.Text.Substring(0, 1);
         }
 
@@ -41,8 +41,31 @@ namespace WSJR_sim
             set1.Owner = this;
             set1.Show();
         }
-    }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.ShowDialog();
+
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                string fileName;
+                fileName = dlg.FileName;
+                MessageBox.Show(fileName);
+            }
+        }
 
     }
+}
 
 
