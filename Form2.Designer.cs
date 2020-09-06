@@ -55,7 +55,7 @@
             this.LDL.Name = "LDL";
             this.LDL.Size = new System.Drawing.Size(360, 36);
             this.LDL.TabIndex = 15;
-            this.LDL.Text = "Conditions At city_name";
+            this.LDL.Text = "Conditions at city_name";
             // 
             // LabelTime
             // 
@@ -101,7 +101,7 @@
             this.labelheader.Name = "labelheader";
             this.labelheader.Size = new System.Drawing.Size(360, 36);
             this.labelheader.TabIndex = 16;
-            this.labelheader.Text = "Conditions At city_name";
+            this.labelheader.Text = "Conditions at city_name";
             // 
             // clearbelow
             // 

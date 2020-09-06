@@ -45,7 +45,7 @@
             this.LDL.Name = "LDL";
             this.LDL.Size = new System.Drawing.Size(345, 36);
             this.LDL.TabIndex = 17;
-            this.LDL.Text = "Conditions At Scranton";
+            this.LDL.Text = "Conditions at Scranton";
             // 
             // LabelTime
             // 
@@ -92,9 +92,8 @@
             this.data.Name = "data";
             this.data.Size = new System.Drawing.Size(550, 255);
             this.data.TabIndex = 13;
-            this.data.Text = "TONIGHT...MOSTLY CLEAR. LOWS AROUND 50. NORTHWEST WINDS AROUND 5 MPH.\r\n\r\nSATURDAY" +
-    "...SUNNY. HIGHS IN THE UPPER 70S. WEST WINDS 5 TO 10 MPH.\r\n\r\nSATURDAY NIGHT...MO" +
-    "STLY CLEAR. LOWS IN THE LOWER";
+            this.data.Text = "Tonight...A chance of sprinkles. Partly sunny, with a high near 74. Southwest win" +
+    "d around 5 mph. \r\n\r\n";
             // 
             // header
             // 
