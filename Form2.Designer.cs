@@ -112,7 +112,7 @@
             this.clearbelow.Name = "clearbelow";
             this.clearbelow.Size = new System.Drawing.Size(330, 36);
             this.clearbelow.TabIndex = 17;
-            this.clearbelow.Text = "Clear Below 12,000 ft";
+            this.clearbelow.Text = "Clear Below 69,420 ft";
             // 
             // temp
             // 
@@ -123,7 +123,7 @@
             this.temp.Name = "temp";
             this.temp.Size = new System.Drawing.Size(165, 36);
             this.temp.TabIndex = 18;
-            this.temp.Text = "Temp: 83°F";
+            this.temp.Text = "Temp: PH°F";
             // 
             // heatindex
             // 
@@ -132,9 +132,9 @@
             this.heatindex.ForeColor = System.Drawing.Color.White;
             this.heatindex.Location = new System.Drawing.Point(274, 108);
             this.heatindex.Name = "heatindex";
-            this.heatindex.Size = new System.Drawing.Size(255, 36);
+            this.heatindex.Size = new System.Drawing.Size(270, 36);
             this.heatindex.TabIndex = 19;
-            this.heatindex.Text = "Heat Index: 81°F";
+            this.heatindex.Text = "Heat Index: 999°F";
             // 
             // humidity
             // 
@@ -143,9 +143,9 @@
             this.humidity.ForeColor = System.Drawing.Color.White;
             this.humidity.Location = new System.Drawing.Point(50, 144);
             this.humidity.Name = "humidity";
-            this.humidity.Size = new System.Drawing.Size(225, 36);
+            this.humidity.Size = new System.Drawing.Size(240, 36);
             this.humidity.TabIndex = 20;
-            this.humidity.Text = "Humidity:  25%";
+            this.humidity.Text = "Humidity:  190%";
             // 
             // dewpoint
             // 
@@ -154,9 +154,9 @@
             this.dewpoint.ForeColor = System.Drawing.Color.White;
             this.dewpoint.Location = new System.Drawing.Point(304, 144);
             this.dewpoint.Name = "dewpoint";
-            this.dewpoint.Size = new System.Drawing.Size(225, 36);
+            this.dewpoint.Size = new System.Drawing.Size(240, 36);
             this.dewpoint.TabIndex = 21;
-            this.dewpoint.Text = "Dewpoint: 44°F";
+            this.dewpoint.Text = "Dewpoint: -99°F";
             // 
             // bp
             // 
@@ -165,9 +165,9 @@
             this.bp.ForeColor = System.Drawing.Color.White;
             this.bp.Location = new System.Drawing.Point(48, 180);
             this.bp.Name = "bp";
-            this.bp.Size = new System.Drawing.Size(465, 36);
+            this.bp.Size = new System.Drawing.Size(435, 36);
             this.bp.TabIndex = 22;
-            this.bp.Text = "Barometric Pressure: 30.06 in ";
+            this.bp.Text = "Barometric Pressure: all in ";
             // 
             // wind
             // 
@@ -176,9 +176,9 @@
             this.wind.ForeColor = System.Drawing.Color.White;
             this.wind.Location = new System.Drawing.Point(48, 216);
             this.wind.Name = "wind";
-            this.wind.Size = new System.Drawing.Size(255, 36);
+            this.wind.Size = new System.Drawing.Size(300, 36);
             this.wind.TabIndex = 23;
-            this.wind.Text = "Wind: W    5 MPH";
+            this.wind.Text = "Wind: WSW    599MPH";
             // 
             // visib
             // 
@@ -187,9 +187,9 @@
             this.visib.ForeColor = System.Drawing.Color.White;
             this.visib.Location = new System.Drawing.Point(48, 252);
             this.visib.Name = "visib";
-            this.visib.Size = new System.Drawing.Size(495, 36);
+            this.visib.Size = new System.Drawing.Size(510, 36);
             this.visib.TabIndex = 24;
-            this.visib.Text = "Visib:  10 mi. Ceiling Unlimited";
+            this.visib.Text = "Visib:  999 mi. Ceiling Unlimited";
             // 
             // precip
             // 
@@ -198,9 +198,9 @@
             this.precip.ForeColor = System.Drawing.Color.White;
             this.precip.Location = new System.Drawing.Point(48, 288);
             this.precip.Name = "precip";
-            this.precip.Size = new System.Drawing.Size(435, 36);
+            this.precip.Size = new System.Drawing.Size(540, 36);
             this.precip.TabIndex = 25;
-            this.precip.Text = "June Precipitation: 0.59 in.";
+            this.precip.Text = "September Precipitation: 999.99 in.";
             // 
             // timeanddate
             // 
